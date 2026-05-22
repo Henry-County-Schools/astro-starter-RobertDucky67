@@ -1,0 +1,27 @@
+h1 { color:rgb(190,174,230);}
+body {
+    background-color:rgb(203,242,207);
+    display:flex;
+    justify-content:flex-start;
+    align-content:center;
+    flex-wrap:wrap;
+    flex-direction:column;
+}
+p{color:rgb(114,71,128);
+    }
+
+h2{ color:rgb(83,212,156);}
+
+div {
+    width:90%;
+}
+
+a:link {color:rgb(73,33,173);}
+
+a:visited {color:rgb(103,173,85);}
+
+a:hover {color:rgb(247,243,158);
+    background-color:rgb(108,94,133);}
+
+a:active {color:rgb(108,94,133);
+    background-color:rgb(247,243,158);}
