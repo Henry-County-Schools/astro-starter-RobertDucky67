@@ -1,11 +1,70 @@
 ---
 import Welcome from '../components/Welcome.astro';
 import Layout from '../layouts/Layout.astro';
+import '../assets/style.css';
+import crow1 from '../assets/Crow1.jpg';
+import ravenVsCrow from '../assets/ravenVsCrow.jpg';
+import crowDeath from '../assets/crowdeath.jpg';
+
 
 // Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
 // Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
 ---
+<!DOCTYPE html>
+<html>
+ <head>
+ </head>
+    <body>
+        <div>
+        <h1>This website is about Crows!</h1>
+        <p>Crows are really cool birds with cool facts! This webite is filled to the brim with the coolest
+            crow facts I could find/think of, enjoy!!</p>
+        <img src ={crow1.src} width=200px hight=200px/>
+        </div>
 
-<Layout>
-	<Welcome />
-</Layout>
+        <br>
+
+        <div>
+        <h2>Crows vs Ravens</h2>
+        <p>Crows are incredibly  smart and beautiful birds with a bit of history as well!!
+            Crows are often times confused with Ravens, so much so that there is a saying
+            that goes, "if you have to ask if it's a Crow, if it's a Raven you will know." But often times
+            This saying confuses people so the best way to tell Crows and Ravens apart is size difference.
+            Crows are way smaller than Ravens in size which is why the saying says you will know when you see a raven
+            because they are bigger crows!!</p>
+        <img src ={ravenVsCrow.src} width=300px hight=300px/>
+        </div>
+
+        <br>
+
+           <div>
+        <h2>A Crows collection</h2>
+        <p>Crows are natural hoarders and scavengers, they often like to keep their resources  for themselves. Despite
+            popular believe crows don't actually prefer shiny things,instead they like to keep food resources
+            such as peanuts, suet, or corn. Most crows use a "hording-scatter" method, where they burry
+            their resources in multiple different  places then they use their great memory to find the location again! </p>
+          </div>
+
+        <br>
+        <div>
+        <h2>Birds with a crimanal history</h2>
+        <p>Crows are very smart birds who remember faces, so if you are nice to one its very
+            likely that crow will come back with gifts. For example in 2020, NYC, some people trained crows to
+            steal money from people for food, they had created their own little "crow mafia" until the trainers got caught
+            and many states started placing bans on feeding crows. But the damage had been done and the crows were still
+            stealing. To fix that issue the same group of people trained the crows to start picking up trash around the neighborhood
+            </p>
+            </div>
+
+            <br>
+            <div>
+            <h2>Birds of Death</h2>
+            <p>Did you know that a group of crows is called a murder? Ever wondered why? Well crows back in the day were seen
+                as birds of death, not only because of their beautiful black feathers, but because crows are scavengers and during times of war crows learned
+                that the battlefield was a place for free food. Crows followed soldiers into war to eat the soldiers dead meat after war was over for the day,
+                for this soldiers believed that crows were a symbol of death, but the soldiers didn't know that the crows were looking for free food so
+                humans considered crows as a bad omen.</p>
+            <img src ={crowDeath.src} width= 200px hight= 200px/>
+         </div>
+    </body>
+</html>
